@@ -275,7 +275,7 @@ h3 {
 /*Services Section */
 .services {
     margin-top: 120px;
-    background: #FFF5F6;
+    background: #E9F9FF;
     padding: 60px 0px;
 }
 .services .grid-wrapper {
@@ -291,34 +291,21 @@ h3 {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.062);
     position: relative;
 }
-.services .grid-box img {
-    margin-top: -30px;
-    margin-bottom: 40px;
-    transition: transform 0.5s ease;
-}
-.services .grid-box .fa-quote-left {
-    font-size: 24px;
-    color:#B4B2C5;
-}
+
 .services .grid-box p {
     margin: 20px 0px;
 }
-.services h4 {
+.services .grid-box h2 {
     color: #55527C;
     font-weight: bold;
+    background: #ADA8FF;
+    padding: 20px;
+    width: 100%;
 }
-.services .rating {
-    color: #ADA8FF;
-}
-.services .rating-1 {
-    color: #EA4C89;
-}
-.services .grid-box:hover img {
+.services .grid-box:hover {
     transform: scale(1.2);
+    transition: transform 0.5s ease;
 }
-
-
-
 
 
 
@@ -327,7 +314,7 @@ h3 {
 .contact .container {
     margin-top: 80px;
     text-align: center;
-    background: #E9F9FF;
+    background: #FFF5F6;
     padding: 60px;
     border-radius: 20px;
 }
@@ -338,20 +325,6 @@ h3 {
     margin-right: 30px;
     font-size: 30px;
     color:#34A1CD;
-}
-.contact .quick-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.contact .quick-links ul {
-    display: flex;
-}
-.contact .quick-links ul li {
-    margin: 0px 20px;
-    color: #55527C;
-    font-weight: bold;
-    cursor: pointer;
 }
 .copyright p{
     color: #55527C;
