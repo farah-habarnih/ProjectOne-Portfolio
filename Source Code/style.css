@@ -9,7 +9,31 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+.dark-mode {
+    background: black;
+    color: whitesmoke;
+  }
+  .dark-mode .navbar a{
+    color: whitesmoke;
+  }
+  .dark-mode .header h1{
+    color: whitesmoke;
+  }
+  .dark-mode .header p{
+    color: whitesmoke;
+  }
+  .dark-mode .header a{
+    color: whitesmoke;
+    background-color: #34A1CD;
+  }
+  .dark-mode .copyright p{
+      color:white;
+  }
+  #darkbtn{
+      padding: 5px;
+      background: black;
+      color: white;
+  }
 body,html{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
@@ -61,6 +85,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 .navbar .nav-list ul ,.social-icons ul{
     display: flex;
@@ -111,10 +136,14 @@ h3 {
     
 }
 .header .col-2{
-    width: 100%;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
 }
 .header .col-2 img{
-    max-width: 80%;
+    max-width: 85%;
+    border-radius: 7em;
+    height: 85%;
 }
 .highlight{
     color:#34A1CD ;
@@ -178,8 +207,10 @@ h3 {
 
 /* Portfolio Section*/ 
 .portfolio {
-    margin-top: 150px;
+    margin-top: 7em;
+    background-color:#FFF5F6; 
     position: relative;
+    padding: 2em;
 }
 .portfolio .title {
     text-align: left;
@@ -207,17 +238,16 @@ h3 {
 }
 .hover {
     position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 60%;
-    height: 60%;
+    top: 7%;
+    width: 80%;
+    height: 84%;
     background:#55527C;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
     flex-direction: column;
     color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 20px;
     transform: scaleX(0);
     transition: transform 0.5s ease;
     
@@ -319,24 +349,58 @@ h3 {
 
 /* Contact */
 
-.contact .container {
+.contact {
+    display: flex;
+    flex-direction: row;
     margin-top: 80px;
     text-align: center;
     background: #FFF5F6;
     padding: 60px;
     border-radius: 20px;
 }
+.contact .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .contact .container h3 {
     margin: 40px 0px;
 }
-.contact .fa {
-    margin-right: 30px;
-    font-size: 30px;
-    color:#34A1CD;
-}
+
 .copyright p{
     color: #55527C;
     font-weight: bold;
     text-align: center;
 }
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #34A1CD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
 
+  input[type=submit]:hover {
+    background-color: #34A1CD;
+  }
+  
+  
+  .container form {
+    border-radius: 5px;
+    background-color: #E9F9FF;
+    padding: 20px;
+  }

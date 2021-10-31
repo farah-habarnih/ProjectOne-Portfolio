@@ -31,7 +31,9 @@
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Clients">Clients</a></li>
                 <li><a href="#Services">Services</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+                
             </ul>
         </div>
         <div class="social-icons">
@@ -39,6 +41,8 @@
                 <li><a href="https://www.instagram.com/eng_farah92/?r=nametag"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="https://github.com/farah-habarnih"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/farah-habarnih/"><i class="fa fa-linkedin"></i></a></li>
+               <li><button id="darkbtn" onclick="myFunction()"> dark mode</button></li>
+               
             </ul>
         </div>
     </nav>
@@ -47,16 +51,16 @@
     </div>
 
     <header class="header container">
-        <div class="circle"></div>
+        
         <div class="row profile">
             <div class="col col-1">
                  <h1> Hey, I'm a <span class="highlight">Font-End</span> web developer. </h1>
                  <p> Hi, I'm Farah a freelance web developer from Jordan.</p>
-                 <a href="#" class="cta">Contact</a>
+                 <a href="./Contact.html" class="cta">Contact</a>
                 </div>
             <div class="col col-2">
                 <div class="profile-img">
-                    <img src="./img/profile.png" alt="profile picture for a girl holding a laptop">
+                    <img src="./img/profile1.jpg" alt="profile picture for a girl holding a laptop">
                 </div>
             </div>
         </div>
@@ -94,39 +98,7 @@
         </div>
     </section>
 
-<!-- Portfolio Section -->
-<section class="portfolio container">
-    <div class="title">
-        <h3>PORTFOLIO</h3>
-        <div class="ctn-title">
-            <h1>All Creative Works</h1>
-        </div>
-      </div>
-       <div class="grid-wrapper">
-        <div class="grid-box">
-            <img src="./img/prj-1.jpeg" alt="picture for website project">
-            <div class="hover">
-                <h4>Website</h4>
-                <a href="https://github.com/farah-habarnih" class="highlight">Github</a>
-            </div>
-        </div>
-        <div class="grid-box">
-            <img src="./img/prj-2.jpg" alt="picture for website project">
-            <div class="hover">
-                <h4>Website</h4>
-                <a href="https://github.com/farah-habarnih" class="highlight">Github</a>
-            </div>
-            
-        </div>
-        <div class="grid-box">
-            <img src="./img/prj-3.jpg" alt="picture for website project">
-            <div class="hover">
-                <h4>Website</h4>
-                <a href="https://github.com/farah-habarnih" class="highlight">Github</a>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- Clients Section -->
 <section id="Clients" class="testimonials">
@@ -189,8 +161,8 @@
         <div class="title">
             <h1>Services</h1>
             <h3>competitive prices</h3>
-        </div>
-        <div class="grid-wrapper">
+          </div>
+           <div class="grid-wrapper">
             <div class="grid-box">
                 <h2>Free</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
@@ -214,17 +186,8 @@
 
 
 
+<!-- Footer -->
 
-<!-- Contact and Footer -->
-<section id="Contact" class="contact">
-    <div class="container">
-        <h3>CONTACT ME</h3>
-        <h1>Got A Project! Let's Talk</h1>
-        <h3><i class="fa fa-envelope-o"></i> hello@website.com</h3>
-       
-    </div>
-    
-</section>
 
 <div class="copyright container">
     <p>© 2021 Farah Ali</p>
@@ -238,6 +201,13 @@
     togglebtn.addEventListener('click', ()=>{
         navbar.classList.toggle('mobile-nav')
     } )
+    
+    function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+   
+
  </script>
  </body>
 </html>
