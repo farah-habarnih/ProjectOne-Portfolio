@@ -28,6 +28,7 @@
   </head>
   <body>
     <!-- Header Section -->
+    <a href="#"><i class="fa fa-2x fa-chevron-circle-up" id="scroll-up"></i></a>
     <nav class="navbar mobile-nav">
       <div class="brand">
         <img
@@ -125,6 +126,17 @@
     </div>
 
     <script>
+      let scrollBtn = document.getElementById("scroll-up");
+      document.addEventListener("scroll", function () {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      });
       let togglebtn = document.querySelector(".toggle-btn");
       let navbar = document.querySelector(".navbar");
 

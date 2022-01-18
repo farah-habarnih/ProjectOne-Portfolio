@@ -466,3 +466,22 @@ input[type="submit"]:hover {
 .dark-mode .portfolio .title .ctn-title h1 {
   color: whitesmoke;
 }
+
+.dark-mode .contact {
+  background-color: black;
+}
+.dark-mode .contact .container {
+  background-color: black;
+  color: whitesmoke;
+}
+.dark-mode .contact .container h3,
+.dark-mode .contact .container h1 {
+  background-color: black;
+  color: whitesmoke;
+}
+.dark-mode .contact .form #form-validate {
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 20px;
+}
