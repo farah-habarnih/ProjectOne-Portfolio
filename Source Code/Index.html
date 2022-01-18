@@ -1,213 +1,271 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, JavaScript,Bootstrap,portfolio,Full Stack Developer,Front-End Developer">
-    <meta name="description" content="Self-motivated person, who pays attention to details, self-learner, and able to work under pressure in teamwork, I’m looking to pursue my career and start a new job.">
-    <meta name="author" content="Farah Ali's Portfolio">
-    <title>Farah's Personal Site </title>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript,Bootstrap,portfolio,Full Stack Developer,Front-End Developer"
+    />
+    <meta
+      name="description"
+      content="Self-motivated person, who pays attention to details, self-learner, and able to work under pressure in teamwork, I’m looking to pursue my career and start a new job."
+    />
+    <meta name="author" content="Farah Ali's Portfolio" />
+    <title>Farah's Personal Site</title>
+
     <!-- Font awesome cdn -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- External Css -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mobile.css">
-    <link rel="stylesheet" href="./tablet.css">
-
-</head>
-<body>
-
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./tablet.css" />
+  </head>
+  <body>
     <!-- Header Section -->
+    <a href="#"><i class="fa fa-2x fa-chevron-circle-up" id="scroll-up"></i></a>
     <nav class="navbar mobile-nav">
-        <div class="brand">
-            <img src="./img/logo.png" alt="logo picture with one word" class="logo">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Clients">Clients</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
-                
-            </ul>
-        </div>
-        <div class="social-icons">
-            <ul>
-                <li><a href="https://www.instagram.com/eng_farah92/?r=nametag"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://github.com/farah-habarnih"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/farah-habarnih/"><i class="fa fa-linkedin"></i></a></li>
-               <li><button id="darkbtn" onclick="myFunction()"> dark mode</button></li>
-               
-            </ul>
-        </div>
+      <div class="brand">
+        <img
+          src="./img/logo.png"
+          alt="logo picture with one word"
+          class="logo"
+        />
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Clients">Clients</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/eng_farah92/?r=nametag"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/farah-habarnih"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/farah-habarnih/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <button id="darkbtn" onclick="myFunction()">dark mode</button>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="toggle-btn">
-        <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </div>
 
     <header class="header container">
-        
-        <div class="row profile">
-            <div class="col col-1">
-                 <h1> Hey, I'm a <span class="highlight">Font-End</span> web developer. </h1>
-                 <p> Hi, I'm Farah a freelance web developer from Jordan.</p>
-                 <a href="./Contact.html" class="cta">Contact</a>
-                </div>
-            <div class="col col-2">
-                <div class="profile-img">
-                    <img src="./img/profile1.jpg" alt="profile picture for a girl holding a laptop">
-                </div>
-            </div>
+      <div class="row profile">
+        <div class="col col-1">
+          <h1>
+            Hey, I'm a <span class="highlight">Font-End</span> web developer.
+          </h1>
+          <p>I'm an enthusiastic, detail-oriented front-End developer.</p>
+          <a href="./Contact.html" class="cta">Contact Me</a>
         </div>
+        <div class="col col-2">
+          <div class="profile-img">
+            <img
+              src="./img/profile3.jpg"
+              alt="profile picture for a girl holding a laptop"
+            />
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Skills Section -->
     <section id="Skills" class="skills container">
-        <div class="title">
-            <h3>MY SKILLS</h3>
-            <h1>My Expertise</h1>
+      <div class="title">
+        <h3>MY SKILLS</h3>
+        <h1>My Expertise</h1>
+      </div>
+      <div class="grid-wrapper">
+        <div class="grid-box">
+          <div class="icon-title">
+            <img
+              src="./img/skill-1.png"
+              class="skill-1"
+              alt="image for Responsive Web design"
+            />
+            <h2>Responsive Web design</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur obcaecati incidunt pariatur in doloribus repellat hic
+            nesciunt accusamus tempora. Facere.
+          </p>
         </div>
-        <div class="grid-wrapper">
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-1.png" class="skill-1" alt="image for Responsive Web design">
-                    <h2>Responsive Web design</h2>
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur obcaecati incidunt pariatur in doloribus repellat hic nesciunt accusamus tempora. Facere.</p>
-            </div>
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-2.png" alt="image for JavaScript">
-                    <h2>JavaScript</h2>
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur obcaecati incidunt pariatur in doloribus repellat hic nesciunt accusamus tempora. Facere.</p>
-            </div>
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-3.png" alt="image for UI and UX Design">
-                    <h2>UI & UX Design</h2>
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur obcaecati incidunt pariatur in doloribus repellat hic nesciunt accusamus tempora. Facere.</p>
-            </div>
-           
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="./img/skill-2.png" alt="image for JavaScript" />
+            <h2>JavaScript</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur obcaecati incidunt pariatur in doloribus repellat hic
+            nesciunt accusamus tempora. Facere.
+          </p>
         </div>
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="./img/skill-3.png" alt="image for UI and UX Design" />
+            <h2>UI & UX Design</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur obcaecati incidunt pariatur in doloribus repellat hic
+            nesciunt accusamus tempora. Facere.
+          </p>
+        </div>
+      </div>
     </section>
 
-
-
-<!-- Clients Section -->
-<section id="Clients" class="testimonials">
-    <div class="container">
+    <!-- Clients Section -->
+    <section id="Clients" class="testimonials">
+      <div class="container">
         <div class="title">
-            <h3>CRAFT AMAZING</h3>
-            <h1>Clients Testimonials</h1>
+          <h3>CRAFT AMAZING</h3>
+          <h1>Clients Testimonials</h1>
         </div>
         <div class="grid-wrapper">
-            <div class="grid-box">
-                <img src="./img/customer1.png" alt="picture for man">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-                <h4>John Dave</h4>
-                <p>Manager</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
+          <div class="grid-box">
+            <img src="./img/customer1.png" alt="picture for man" />
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+            <h4>John Dave</h4>
+            <p>Manager</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
             </div>
-            <div class="grid-box">
-                <img src="./img/customer2.png" alt="picture for women">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-                <h4>Jolia Doe</h4>
-                <p>Marketing Manager</p>
-                <div class="rating-1">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-            </div>
-            <div class="grid-box">
-                <img src="./img/customer3.png" alt="picture for man">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-                <h4>Jeff kart</h4>
-                <p>Web developer</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Services Section -->
-<section id="Services" class="services">
-    <div class="container">
-        <div class="title">
-            <h1>Services</h1>
-            <h3>competitive prices</h3>
           </div>
-           <div class="grid-wrapper">
-            <div class="grid-box">
-                <h2>Free</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-                
-                
+          <div class="grid-box">
+            <img src="./img/customer2.png" alt="picture for women" />
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+            <h4>Jolia Doe</h4>
+            <p>Marketing Manager</p>
+            <div class="rating-1">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
             </div>
-            <div class="grid-box">
-                <h2>$25 / hr</h2> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-                
+          </div>
+          <div class="grid-box">
+            <img src="./img/customer3.png" alt="picture for man" />
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+            <h4>Jeff kart</h4>
+            <p>Web developer</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
             </div>
-            <div class="grid-box">
-                <h2>$60 / hr</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident?</p>
-               
-               
-            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="Services" class="services">
+      <div class="container">
+        <div class="title">
+          <h1>Services</h1>
+          <h3>competitive prices</h3>
+        </div>
+        <div class="grid-wrapper">
+          <div class="grid-box">
+            <h2>Free</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+          </div>
+          <div class="grid-box">
+            <h2>$25 / hr</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+          </div>
+          <div class="grid-box">
+            <h2>$60 / hr</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              provident?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="copyright container">
+      <p>© 2021 Farah Ali</p>
     </div>
-</section>
 
+    <script>
+      let scrollBtn = document.getElementById("scroll-up");
+      document.addEventListener("scroll", function () {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      });
+      let togglebtn = document.querySelector(".toggle-btn");
+      let navbar = document.querySelector(".navbar");
 
+      togglebtn.addEventListener("click", () => {
+        navbar.classList.toggle("mobile-nav");
+      });
 
-<!-- Footer -->
-
-
-<div class="copyright container">
-    <p>© 2021 Farah Ali</p>
-</div>
-
-    
- <script>
-    let togglebtn = document.querySelector('.toggle-btn')
-    let navbar = document.querySelector('.navbar')
-
-    togglebtn.addEventListener('click', ()=>{
-        navbar.classList.toggle('mobile-nav')
-    } )
-    
-    function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
-   
-
- </script>
- </body>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
 </html>
